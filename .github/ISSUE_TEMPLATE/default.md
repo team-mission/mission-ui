@@ -1,6 +1,8 @@
 ---
 name: Default
+about: Describe template purpose
 title: ''
+labels: ''
 assignees: ''
 
 ---
