@@ -375,7 +375,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/@chromatic-com-storybook-npm-1.9.0-19be38f947-10c0.zip/node_modules/@chromatic-com/storybook/",\
         "packageDependencies": [\
           ["@chromatic-com/storybook", "npm:1.9.0"],\
-          ["chromatic", "virtual:19be38f94729b1fb087a300b9a7c63ec2c57d2df64741cda7314db07da574572d703c2d1b2894836316a2c36c5fc8eab47d060f6780041cfcc4aa93039081bca#npm:11.10.1"],\
+          ["chromatic", "virtual:19be38f94729b1fb087a300b9a7c63ec2c57d2df64741cda7314db07da574572d703c2d1b2894836316a2c36c5fc8eab47d060f6780041cfcc4aa93039081bca#npm:11.10.2"],\
           ["filesize", "npm:10.1.6"],\
           ["jsonfile", "npm:6.1.0"],\
           ["react-confetti", "virtual:19be38f94729b1fb087a300b9a7c63ec2c57d2df64741cda7314db07da574572d703c2d1b2894836316a2c36c5fc8eab47d060f6780041cfcc4aa93039081bca#npm:6.1.0"],\
@@ -1847,7 +1847,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/instrumenter", "virtual:61df69c7b696dcb8ba4a70b4390d87ab461c8c833b1a8cab737ab3b0af44fac2138b24b2eee0c5aa1599dcabcb0759035b2c7185a4f8c9fb4a9f79c80f9e542c#npm:8.3.0"],\
           ["@storybook/global", "npm:5.0.0"],\
           ["@types/storybook", null],\
-          ["@vitest/utils", "npm:2.1.0"],\
+          ["@vitest/utils", "npm:2.1.1"],\
           ["storybook", "npm:8.3.0"],\
           ["util", "npm:0.12.5"]\
         ],\
@@ -1923,7 +1923,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/theming", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.0"],\
           ["@types/escodegen", "npm:0.0.6"],\
           ["@types/estree", "npm:0.0.51"],\
-          ["@types/node", "npm:22.5.4"],\
+          ["@types/node", "npm:22.5.5"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@types/storybook", null],\
@@ -1972,7 +1972,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/theming", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.0"],\
           ["@types/escodegen", "npm:0.0.6"],\
           ["@types/estree", "npm:0.0.51"],\
-          ["@types/node", "npm:22.5.4"],\
+          ["@types/node", "npm:22.5.5"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@types/storybook", null],\
@@ -2438,6 +2438,14 @@ const RAW_RUNTIME_STATE =
           ["undici-types", "npm:6.19.8"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:22.5.5", {\
+        "packageLocation": "../../.yarn/berry/cache/@types-node-npm-22.5.5-e8a43f7042-10c0.zip/node_modules/@types/node/",\
+        "packageDependencies": [\
+          ["@types/node", "npm:22.5.5"],\
+          ["undici-types", "npm:6.19.8"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@types/prop-types", [\
@@ -2898,10 +2906,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:2.1.0", {\
-        "packageLocation": "../../.yarn/berry/cache/@vitest-pretty-format-npm-2.1.0-addc2cc6b7-10c0.zip/node_modules/@vitest/pretty-format/",\
+      ["npm:2.1.1", {\
+        "packageLocation": "../../.yarn/berry/cache/@vitest-pretty-format-npm-2.1.1-29864c3670-10c0.zip/node_modules/@vitest/pretty-format/",\
         "packageDependencies": [\
-          ["@vitest/pretty-format", "npm:2.1.0"],\
+          ["@vitest/pretty-format", "npm:2.1.1"],\
           ["tinyrainbow", "npm:1.2.0"]\
         ],\
         "linkType": "HARD"\
@@ -2929,11 +2937,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:2.1.0", {\
-        "packageLocation": "../../.yarn/berry/cache/@vitest-utils-npm-2.1.0-96e2c707cd-10c0.zip/node_modules/@vitest/utils/",\
+      ["npm:2.1.1", {\
+        "packageLocation": "../../.yarn/berry/cache/@vitest-utils-npm-2.1.1-4266447115-10c0.zip/node_modules/@vitest/utils/",\
         "packageDependencies": [\
-          ["@vitest/utils", "npm:2.1.0"],\
-          ["@vitest/pretty-format", "npm:2.1.0"],\
+          ["@vitest/utils", "npm:2.1.1"],\
+          ["@vitest/pretty-format", "npm:2.1.1"],\
           ["loupe", "npm:3.1.1"],\
           ["tinyrainbow", "npm:1.2.0"]\
         ],\
@@ -3381,17 +3389,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["chromatic", [\
-      ["npm:11.10.1", {\
-        "packageLocation": "../../.yarn/berry/cache/chromatic-npm-11.10.1-7d753fb06a-10c0.zip/node_modules/chromatic/",\
+      ["npm:11.10.2", {\
+        "packageLocation": "../../.yarn/berry/cache/chromatic-npm-11.10.2-a582b1a901-10c0.zip/node_modules/chromatic/",\
         "packageDependencies": [\
-          ["chromatic", "npm:11.10.1"]\
+          ["chromatic", "npm:11.10.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:19be38f94729b1fb087a300b9a7c63ec2c57d2df64741cda7314db07da574572d703c2d1b2894836316a2c36c5fc8eab47d060f6780041cfcc4aa93039081bca#npm:11.10.1", {\
-        "packageLocation": "./.yarn/__virtual__/chromatic-virtual-c21f0821c8/3/.yarn/berry/cache/chromatic-npm-11.10.1-7d753fb06a-10c0.zip/node_modules/chromatic/",\
+      ["virtual:19be38f94729b1fb087a300b9a7c63ec2c57d2df64741cda7314db07da574572d703c2d1b2894836316a2c36c5fc8eab47d060f6780041cfcc4aa93039081bca#npm:11.10.2", {\
+        "packageLocation": "./.yarn/__virtual__/chromatic-virtual-4e6dff1159/3/.yarn/berry/cache/chromatic-npm-11.10.2-a582b1a901-10c0.zip/node_modules/chromatic/",\
         "packageDependencies": [\
-          ["chromatic", "virtual:19be38f94729b1fb087a300b9a7c63ec2c57d2df64741cda7314db07da574572d703c2d1b2894836316a2c36c5fc8eab47d060f6780041cfcc4aa93039081bca#npm:11.10.1"],\
+          ["chromatic", "virtual:19be38f94729b1fb087a300b9a7c63ec2c57d2df64741cda7314db07da574572d703c2d1b2894836316a2c36c5fc8eab47d060f6780041cfcc4aa93039081bca#npm:11.10.2"],\
           ["@chromatic-com/cypress", null],\
           ["@chromatic-com/playwright", null],\
           ["@types/chromatic-com__cypress", null],\
