@@ -12,6 +12,8 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "clsx": "2.1.1",
+    "framer-motion": "11.5.4",
     "react": "19.0.0-rc-94e652d5-20240912",
     "react-dom": "19.0.0-rc-94e652d5-20240912"
   },
