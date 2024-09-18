@@ -28,10 +28,11 @@
     "@storybook/react": "8.3.0",
     "@storybook/react-vite": "8.3.0",
     "@storybook/test": "8.3.0",
-    "@storybook/theming": "^8.3.0",
+    "@storybook/theming": "8.3.0",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@vitejs/plugin-react": "4.3.1",
+    "autoprefixer": "10.4.20",
     "eslint": "9.9.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.2.1",
@@ -39,14 +40,17 @@
     "eslint-plugin-react-refresh": "0.4.9",
     "eslint-plugin-storybook": "0.8.0",
     "globals": "15.9.0",
+    "postcss": "8.4.47",
     "prettier": "3.3.3",
+    "prettier-plugin-tailwindcss": "0.6.6",
     "storybook": "8.3.0",
+    "tailwindcss": "3.4.11",
     "typescript": "5.5.3",
     "typescript-eslint": "8.0.1",
     "vite": "5.4.3"
   },
   "license": "MIT",
-  "packageManager": "yarn@4.4.1",
+  "packageManager": "yarn@4.5.0",
   "eslintConfig": {
     "extends": [
       "plugin:storybook/recommended"

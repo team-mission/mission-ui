@@ -1,0 +1,11 @@
+input {
+  outline: none;
+  background-color: inherit;
+}
+
+a {
+  color: #332651;
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
