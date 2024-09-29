@@ -34,6 +34,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/addon-links", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.0"],\
           ["@storybook/addon-onboarding", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.0"],\
           ["@storybook/blocks", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.0"],\
+          ["@storybook/manager-api", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.4"],\
           ["@storybook/react", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.0"],\
           ["@storybook/react-vite", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.0"],\
           ["@storybook/test", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.0"],\
@@ -1910,10 +1911,30 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
+      ["npm:8.3.4", {\
+        "packageLocation": "../../.yarn/berry/cache/@storybook-manager-api-npm-8.3.4-782678016c-10c0.zip/node_modules/@storybook/manager-api/",\
+        "packageDependencies": [\
+          ["@storybook/manager-api", "npm:8.3.4"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
       ["virtual:496388d22f858ac0c998275b61fa1cc594e5954f9942f3abe7f6bdd9d6103836b16aaac3e2d074aa787dde38f8ce5154c2dee0b57a8fdcedc5ed7132552b4df9#npm:8.3.0", {\
         "packageLocation": "./.yarn/__virtual__/@storybook-manager-api-virtual-3b7da55df0/3/.yarn/berry/cache/@storybook-manager-api-npm-8.3.0-671d59e17d-10c0.zip/node_modules/@storybook/manager-api/",\
         "packageDependencies": [\
           ["@storybook/manager-api", "virtual:496388d22f858ac0c998275b61fa1cc594e5954f9942f3abe7f6bdd9d6103836b16aaac3e2d074aa787dde38f8ce5154c2dee0b57a8fdcedc5ed7132552b4df9#npm:8.3.0"],\
+          ["@types/storybook", null],\
+          ["storybook", "npm:8.3.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/storybook",\
+          "storybook"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.4", {\
+        "packageLocation": "./.yarn/__virtual__/@storybook-manager-api-virtual-9f81a5720d/3/.yarn/berry/cache/@storybook-manager-api-npm-8.3.4-782678016c-10c0.zip/node_modules/@storybook/manager-api/",\
+        "packageDependencies": [\
+          ["@storybook/manager-api", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.4"],\
           ["@types/storybook", null],\
           ["storybook", "npm:8.3.0"]\
         ],\
@@ -5864,6 +5885,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/addon-links", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.0"],\
           ["@storybook/addon-onboarding", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.0"],\
           ["@storybook/blocks", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.0"],\
+          ["@storybook/manager-api", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.4"],\
           ["@storybook/react", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.0"],\
           ["@storybook/react-vite", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.0"],\
           ["@storybook/test", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.3.0"],\
