@@ -1303,7 +1303,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/manager-api@npm:^8.3.0":
+"@storybook/manager-api@npm:8.3.0, @storybook/manager-api@npm:^8.3.0":
   version: 8.3.0
   resolution: "@storybook/manager-api@npm:8.3.0"
   peerDependencies:
@@ -4563,6 +4563,7 @@ __metadata:
     "@storybook/addon-links": "npm:8.3.0"
     "@storybook/addon-onboarding": "npm:8.3.0"
     "@storybook/blocks": "npm:8.3.0"
+    "@storybook/manager-api": "npm:8.3.0"
     "@storybook/react": "npm:8.3.0"
     "@storybook/react-vite": "npm:8.3.0"
     "@storybook/test": "npm:8.3.0"
