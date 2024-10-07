@@ -58,6 +58,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:18.3.1"],\
           ["storybook", "npm:8.3.0"],\
+          ["tailwind-merge", "npm:2.5.3"],\
           ["tailwindcss", "npm:3.4.11"],\
           ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
           ["typescript-eslint", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.0.1"],\
@@ -5889,6 +5890,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:18.3.1"],\
           ["storybook", "npm:8.3.0"],\
+          ["tailwind-merge", "npm:2.5.3"],\
           ["tailwindcss", "npm:3.4.11"],\
           ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
           ["typescript-eslint", "virtual:f9ea6124d862ad722e9cb1936978da8b4f250a85f2ad059accce81e5d9f24638d71894391338afd7f48e392e6824705840ce4b733e8b2c7161d2001df4d8c785#npm:8.0.1"],\
@@ -7441,6 +7443,15 @@ const RAW_RUNTIME_STATE =
           ["synckit", "npm:0.9.1"],\
           ["@pkgr/core", "npm:0.1.1"],\
           ["tslib", "npm:2.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tailwind-merge", [\
+      ["npm:2.5.3", {\
+        "packageLocation": "../../.yarn/berry/cache/tailwind-merge-npm-2.5.3-f5c0b46b40-10c0.zip/node_modules/tailwind-merge/",\
+        "packageDependencies": [\
+          ["tailwind-merge", "npm:2.5.3"]\
         ],\
         "linkType": "HARD"\
       }]\

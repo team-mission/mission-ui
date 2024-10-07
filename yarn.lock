@@ -4587,6 +4587,7 @@ __metadata:
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     storybook: "npm:8.3.0"
+    tailwind-merge: "npm:2.5.3"
     tailwindcss: "npm:3.4.11"
     typescript: "npm:5.5.3"
     typescript-eslint: "npm:8.0.1"
@@ -5883,6 +5884,13 @@ __metadata:
     "@pkgr/core": "npm:^0.1.0"
     tslib: "npm:^2.6.2"
   checksum: 10c0/d8b89e1bf30ba3ffb469d8418c836ad9c0c062bf47028406b4d06548bc66af97155ea2303b96c93bf5c7c0f0d66153a6fbd6924c76521b434e6a9898982abc2e
+  languageName: node
+  linkType: hard
+
+"tailwind-merge@npm:2.5.3":
+  version: 2.5.3
+  resolution: "tailwind-merge@npm:2.5.3"
+  checksum: 10c0/1d3fb3eae7b5d7c30aad1e7cf74cf5e6fcb1e0319cc91bb29e266837819b23cd226d667a15e8d3f26db81b4abc30332be5d831f2c819e1bebafdcd7b2a1d4e48
   languageName: node
   linkType: hard
 
